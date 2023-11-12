@@ -1,0 +1,728 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#sher img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+#navigation{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+
+}
+#navigation h5{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.811);
+    margin-left: 40px;
+
+   
+}
+#icon{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.811);
+    padding-left: 220px;
+    gap: 20px;
+}
+#icon i{
+    margin-right: 10px;
+}
+#navigation2{
+    height: 80px;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* background-image: url(bg.jpg); */
+   background-color: rgb(29, 28, 28);
+   background-size: cover;
+   background-position: center;
+}
+#green{
+    height: 20px;
+    width: 90px;
+}
+#sign{
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+    gap: 20px;
+    
+}
+#sign h6{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    align-items: center;
+    padding-top: 5px;
+    color: rgba(255, 255, 255, 0.848);
+}
+#sign button{
+    height: 28px;
+    width: 60px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 11px;
+    border: none;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+    background-color: green;
+    color: white;
+
+}
+
+#sign button:hover{
+    border: 2px solid green;
+    background-color: rgba(245, 245, 245, 0.81);
+    color: black;
+}
+.ri-menu-line{
+    margin-left: 20px;
+    padding-top: 5px;
+    color: rgba(255, 255, 255, 0.837);
+}
+.ri-search-line{
+    padding-top: 5px;
+    color: rgba(255, 255, 255, 0.837);
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+}
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+   
+}
+#page1 h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(4, 168, 4);
+    text-transform: uppercase;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    mix-blend-mode: difference;
+}
+
+#page1 h6{
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.759);
+    position: absolute;
+    top: 58%;
+    left: 10%;
+    mix-blend-mode: difference;
+}
+#page1 button{
+    height: 35px;
+    width: 130px;
+    font-size: 10px;
+    font-weight: 400;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.888);
+    position: absolute;
+    top: 72%;
+    left: 10%;
+    border-radius: 12px;
+    border: none;
+    background-color: green;
+    transition: all ease 1s;
+}
+#page1 button:hover{
+    border: 2px solid green;
+    background-color: rgba(245, 245, 245, 0.81);
+    color: black;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    /* background-color: firebrick; */
+    /* margin-bottom: 150px; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+#page2 #container{
+    
+    height: 70%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    white-space: nowrap;
+    animation-name: cont;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    
+   
+}
+@keyframes cont {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+#container:hover{
+    animation-play-state: paused;
+}
+.elem{
+    height: 55%;
+    width: 25%;
+    /* background-color: blue; */
+    object-fit: cover;
+    object-position: center;
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+
+   
+
+}
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#page2 h4{
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    text-transform: uppercase;
+}
+.elem h5{
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.elem h6{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 105px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.elem p1{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 80px;
+    color: rgba(0, 0, 0, 0.559);
+   
+}
+.elem p2{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 15px;
+    color: green;
+   
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+}
+#page3 #part1{
+    height: 100%;
+    width: 48%;
+    background-color: lightpink;
+    position: relative;
+}
+
+#page3 #part2{
+    height: 100%;
+    width: 48%;
+    background-color: aqua;
+    position: relative;
+}
+#page3 #part2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-color: rgb(32, 32, 32);
+}
+#beli{
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+#beli h1{
+    font-size: 40px;
+    font-weight: 700;
+    /* color: green; */
+    color: white;
+    text-transform: uppercase;
+    /* mix-blend-mode: difference; */
+}
+#beli h6{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.733);
+    margin-top: 15px;
+}
+#beli button{
+    height: 30px;
+    width: 180px;
+    margin-top: 30px;
+    background-color: green;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.827);
+    transition: all ease 1s;
+   
+}
+#beli h4{
+    border-right: 2px solid rgba(0, 0, 0, 0.477);
+    height: 100%;
+    font-size: 11px;
+    margin-left: 12px;
+    padding-right: 25px;
+    padding-top: 6px;
+}
+
+#beli h5{
+    font-size: 10px;
+    margin-left: 12px;
+    padding-right: 10px;
+    padding-top: 0px;
+}
+#beli button:hover{
+    border: 2px solid green;
+    background-color: rgba(245, 245, 245, 0.714);
+    color: black;
+}
+#page3 #part1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#page3 #part1 h1{
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    color: rgb(54, 176, 65);
+   
+    left: 20px;
+    bottom: 25%;
+    text-transform: capitalize;
+    mix-blend-mode: difference;
+}
+#page3 #part1 #nav3{
+    height: 70px;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.633);
+    position: absolute;
+    bottom: 0;
+    padding: 20px 15px;   
+}
+#page3 #nav3 #line{
+    height: 3px;
+    width: 100%;
+    background-color: rgba(65, 64, 64, 0.718);
+}
+
+#page3 #nav3 #white{
+    height: 100%;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.668);
+    z-index: 999;
+}
+
+#page3 #nav3 #green{
+    height: 100%;
+    width: 50%;
+    background-color: green;
+    z-index: 999;
+}
+#page3 #all{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    padding-top: 5px;
+}
+.ri-play-circle-fill{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   z-index: 999;
+   font-size: 40px;
+   /* background-color: red; */
+   color: red;
+}
+.ri-play-circle-fill:hover{
+    color: white;
+}
+
+#page4{
+    height: 80%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center; 
+    overflow: hidden; 
+    position: relative;
+}
+#page4 h2{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+#page4 #containers{
+    height: 70%;
+    width: 100%;
+    /* background-color: green; */
+    white-space: nowrap;
+    animation-name: sah;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* overflow-y: hidden; */
+    /* overflow-x: auto; */
+    
+}
+#containers::-webkit-scrollbar{
+    display: none;
+}
+@keyframes sah {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(calc(-100% - 24px));
+    }
+}
+
+#containers:hover{
+    animation-play-state: paused;
+}
+#page4 #containers .element{
+    height: 100%;
+    width: 30%;
+    /* background-color: brown; */
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;      
+      
+}
+#page4 .element img{
+    height: 50%;
+    width: 50%;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.element #le{
+    font-size: 10px;
+    position: absolute;
+    top: 75px;
+    right: 10px;
+
+}
+.element h1{
+    font-size: 16px;
+    font-weight: 550;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.element h4{
+    font-size: 13px;
+    font-weight: 550;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.element button{
+    height: 22px;
+    width: 60px;
+    font-size: 10px;
+    font-weight: 550;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    transition: all ease 1s;
+}
+.element button:hover{
+    border: 2px solid white;
+    background-color: black;
+}
+
+
+#page4 .element #le h3{
+    font-size: 11px;
+    font-weight: 550;
+    position: absolute;
+    bottom: -70%;
+    right: 80%;
+    color: rgba(0, 0, 0, 0.608);
+}
+
+#page4 .element #le h5{
+    font-size: 12px;
+    font-weight: 550;
+    position: absolute;
+    bottom: -70%;
+    right: 20%;
+    color: green;
+   
+}
+#page5{
+   height: 70%;
+   width: 100%;
+   background-color: black;
+   padding: 0 40px;
+   padding-top: 50px;
+}
+#page5-1{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+    position: relative;
+}
+#page5 h1{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#page5 img{
+    height: 55%;
+    width: 90%;
+    position: absolute;
+    bottom: 20px;
+}
+#page6{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+}
+#page6 #part-1{
+    height: 100%;
+    width: 49%;
+    background-color: whitesmoke;
+    padding-left: 15px;
+    padding-top: 15px;
+    position: relative;
+}
+#page6 #part-1 img{
+    height: 110px;
+    width: 140px;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+#page6 #part-1 h2{
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+
+}
+
+#page6 #part-1 h1{
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+#page6 #part-1 h6{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+#page6 #part-1 button{
+    font-size: 10px;
+    font-weight: 600;
+    height: 33px;
+    width: 110px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    transition: all ease 1s;
+}
+#page6 #part-1 button:hover{
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
+
+#page6 #part-2{
+    height: 100%;
+    width: 49%;
+    background-color: whitesmoke;
+    padding-left: 15px;
+    padding-top: 15px;
+    position: relative;
+}
+
+#page6 #part-2 img{
+    height: 110px;
+    width: 140px;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#page6 #part-2 h2{
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+
+}
+
+#page6 #part-2 h1{
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+#page6 #part-2 h6{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+#page6 #part-2 button{
+    font-size: 10px;
+    font-weight: 600;
+    height: 33px;
+    width: 110px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    transition: all ease 1s;
+}
+#page6 #part-2 button:hover{
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
+#page7{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(16, 16, 16);
+    position: relative;
+}
+#page7 #footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+#footer .elem3 h3{
+    font-size: 18px;
+    font-weight: 650;
+    margin-bottom: 15px;
+    color: green;
+}
+
+#footer .elem3 h5{
+    font-size: 13px;
+    font-weight: 650;
+    margin-bottom: 15px;
+    color: rgba(245, 245, 245, 0.751);
+}
+#footer .elem3 h5:hover{
+    color: rgba(0, 128, 0, 0.826);
+}
+#page7 button{
+    height: 30px;
+    width: 120px;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    bottom: 120px;
+    right: 70px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all ease 1s;
+}
+#page7 button:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
